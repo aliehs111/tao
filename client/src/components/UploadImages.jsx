@@ -26,7 +26,7 @@ function UploadImages() {
 
   const beginUpload = (tag) => {
     const uploadOptions = {
-      cloudName: "dbindi09a",
+      cloudName: "dkg4r1r1v",
       tags: [tag, "amImage"],
       uploadPreset: "new4new",
     };
@@ -105,7 +105,7 @@ function UploadImages() {
   }, [data]);
   console.log("Images:", images);
   return (
-    <CloudinaryContext cloudName="dbindi09a">
+    <CloudinaryContext cloudName="dkg4r1r1v">
       <div className="App">
         <button onClick={() => beginUpload("image")}>Upload Image</button>
         <div className="image-grid">

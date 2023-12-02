@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { openUploadWidget } from '../CloudinaryService';
 
-function WorkImages({ initialImages }) {
+function Portfolio({ initialImages }) {
     const [images, setImages] = useState(initialImages);
 
     useEffect(() => {
@@ -19,7 +19,7 @@ function WorkImages({ initialImages }) {
 
     const handleImageUpload = () => {
         const options = {
-            cloudName: 'dbindi09a',
+            cloudName: 'dkg4r1r1v',
             uploadPreset: 'new4new',
             tags: ['portfolio'], 
         };
@@ -70,4 +70,4 @@ function WorkImages({ initialImages }) {
     );
 }
 
-export default WorkImages;
+export default Portfolio;

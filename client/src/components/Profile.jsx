@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { openUploadWidget } from '../CloudinaryService';
 
-function ProfilePicture({ initialProfilePic }) {
+function Profile({ initialProfilePic }) {
     const [profilePic, setProfilePic] = useState(initialProfilePic);
 
     useEffect(() => {
